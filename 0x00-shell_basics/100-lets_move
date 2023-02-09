@@ -1,2 +1,2 @@
-#!/bin/bash
-mv [:upper:]* /tmp/u cd /tmp/u
+#!bin/bash
+mv src/*[A-Z]* /tmp/u
