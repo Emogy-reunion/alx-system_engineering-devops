@@ -1,0 +1,17 @@
+#!/usr/bin/env bash
+# Display numbers from 1 to 100.
+
+count=1
+
+while [ "$count" -le 100 ]; do
+	if ((count % 3 == 0)) && ((count % 5 == 0)); then
+        	echo "FIZZBUZZ"
+    	elif ((count % 3 == 0)); then
+        	echo "FIZZ"
+    	elif ((count % 5 == 0)); then
+        	echo "BUZZ"
+    	else
+        	echo "$count"
+    	fi
+    		((count++))
+done
