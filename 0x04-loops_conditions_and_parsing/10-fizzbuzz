@@ -5,11 +5,11 @@ count=1
 
 while [ "$count" -le 100 ]; do
 	if ((count % 3 == 0)) && ((count % 5 == 0)); then
-        	echo "FIZZBUZZ"
+        	echo "FizzBuzz"
     	elif ((count % 3 == 0)); then
-        	echo "FIZZ"
+        	echo "Fizz"
     	elif ((count % 5 == 0)); then
-        	echo "BUZZ"
+        	echo "Buzz"
     	else
         	echo "$count"
     	fi
