@@ -87,3 +87,6 @@
 	* Home directory path for the user
 * Requirements:
 	* You must use the while loop (for and until are forbidden)
+
+12. 101-tell_the_story_of_passwd file
+* Write a Bash script that displays the content of the file /etc/passwd, using the while loop + IFS.
