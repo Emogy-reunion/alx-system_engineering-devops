@@ -1,0 +1,15 @@
+#!/usr/bin/env bash
+#loop ten iterations
+#if 4th display bad luck, if 8th display good luck else Best School
+
+x=1
+while [ "$x" -le 10 ]; do
+	if [ "$x" -eq 4 ]; then
+		echo "bad luck"
+	elif [ "$x" -eq 8 ]; then
+		echo "good luck"
+	else
+		echo "Best School"
+	fi
+	((x++))
+done
