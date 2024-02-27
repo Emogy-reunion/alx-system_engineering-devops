@@ -90,3 +90,11 @@
 
 12. 101-tell_the_story_of_passwd file
 * Write a Bash script that displays the content of the file /etc/passwd, using the while loop + IFS.
+
+13. 102-lets_parse_apache_logsfile 
+* Write a Bash script that displays the visitor IP along with the HTTP status code from the Apache log file.
+* Requirement:
+	* Format: IP HTTP_CODE
+	* You must use awk
+	* You are not allowed to use while, for, until and cut
+	* Download and commit the apache-access.log file along with your answers files
