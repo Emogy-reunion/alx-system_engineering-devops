@@ -1,4 +1,4 @@
-#System DEVops
+# System DEVops
 * This repo contains skills needed in system devops e.g bash scripting, Networking
 
 * System DevOps, often referred to as "SysDevOps," combines elements of system administration (SysAdmin) with DevOps practices to improve the efficiency, reliability, and scalability of IT operations
@@ -16,7 +16,7 @@
 
 * Below are areas covered in this repo
 
-##BASH SCRIPTING
+## BASH SCRIPTING
 
 * Bash scripting refers to the process of writing scripts using the Bash (Bourne Again SHell) programming language, which is the default shell for most Linux and Unix-like operating systems.
 * Bash scripting allows users to automate repetitive tasks, execute commands, manipulate files and directories, and perform various system operations through scripts.
